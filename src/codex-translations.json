@@ -1,0 +1,28 @@
+{
+  "displayName": "Codex – OpenAI 编程智能体",
+  "description": "Codex 是一个与你协同工作的编程智能体，已包含在 ChatGPT Plus、Pro、Business、Edu 和 Enterprise 套餐中。",
+  "commands": {
+    "chatgpt.implementTodo": "使用 Codex 实现",
+    "chatgpt.openSidebar": "打开 Codex 侧栏",
+    "chatgpt.openCommandMenu": "打开 Codex 命令菜单",
+    "chatgpt.newCodexPanel": "新建 Codex 智能体",
+    "chatgpt.addToThread": "添加到 Codex 对话",
+    "chatgpt.addFileToThread": "将文件添加到 Codex 对话",
+    "chatgpt.newChat": "在 ChatGPT 侧栏中新建聊天",
+    "chatgpt.showLspMcpCliArgs": "复制用于 LSP MCP 的 Codex CLI 参数",
+    "chatgpt.dumpNuxState": "调试：将 NUX 状态输出到控制台",
+    "chatgpt.resetNuxState": "调试：重置 NUX 状态"
+  },
+  "configurationTitle": "Codex 设置",
+  "configurationDescriptions": {
+    "chatgpt.commentCodeLensEnabled": "在 TODO 注释上方启用 CodeLens，以使用 Codex 实现任务。",
+    "chatgpt.cliExecutable": "仅限开发：Codex CLI 可执行文件的路径。除非你正在开发 Codex CLI，否则无需设置。手动设置后，扩展的部分功能可能无法正常工作。",
+    "chatgpt.openOnStartup": "扩展启动完成后聚焦 Codex 侧栏。",
+    "chatgpt.followUpQueueMode": "控制后续消息是排队等待，还是引导当前运行。按 Cmd/Ctrl+Shift+Enter 可对单条进行中的后续消息执行相反操作。",
+    "chatgpt.composerEnterBehavior": "设置 Codex 输入框的 Enter 键行为。",
+    "chatgpt.reviewDelivery": "尽可能在当前聊天中内联启动 /review，否则新建独立的审查聊天。",
+    "chatgpt.localeOverride": "Codex 界面的首选语言。留空则自动检测。",
+    "chatgpt.runCodexInWindowsSubsystemForLinux": "仅限 Windows：安装 WSL 后，自动在 WSL 中运行 Codex。建议启用以改善沙箱安全性和性能；Windows 上的智能体模式目前需要 WSL。更改此设置后会重新加载 VS Code。"
+  }
+}
+

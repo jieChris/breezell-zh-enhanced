@@ -1,0 +1,1234 @@
+{
+  "source": {
+    "applicationName": "breezell",
+    "version": "1.112.0",
+    "commit": "3d76090b806cfd662075db7bcfb6600e585e39e2",
+    "workbenchChecksum": "p8n1M6ledXSK0xmYXOwC1lR7JjOey1/nCwbLcClMeDA"
+  },
+  "nativeSettingsLanguage": "zh",
+  "coreEntries": [
+    {
+      "module": "vs/workbench/browser/actions/layoutActions",
+      "key": "move second sidebar left",
+      "source": "Move Breezell Side Bar Left",
+      "target": "向左移动辅助边栏"
+    },
+    {
+      "module": "vs/workbench/browser/actions/layoutActions",
+      "key": "move second sidebar right",
+      "source": "Move Breezell Side Bar Right",
+      "target": "向右移动辅助边栏"
+    },
+    {
+      "module": "vs/workbench/browser/actions/layoutActions",
+      "key": "secondarySideBarContainer",
+      "source": "Breezell Side Bar / {0}",
+      "target": "辅助侧栏/{0}"
+    },
+    {
+      "module": "vs/workbench/browser/actions/layoutActions",
+      "key": "moveFocusedView.newContainerInSidePanel",
+      "source": "New Breezell Side Bar Entry",
+      "target": "新建辅助侧栏条目"
+    },
+    {
+      "module": "vs/workbench/browser/actions/layoutActions",
+      "key": "secondarySideBar",
+      "source": "Breezell Side Bar",
+      "target": "辅助侧边栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions",
+      "key": "closeSecondarySideBar",
+      "source": "Hide Breezell Side Bar",
+      "target": "隐藏辅助侧栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions",
+      "key": "openAndCloseAuxiliaryBar",
+      "source": "Open/Show and Close/Hide Breezell Side Bar",
+      "target": "打开/显示和关闭/隐藏辅助侧边栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions",
+      "key": "toggleSecondarySideBar",
+      "source": "Toggle Breezell Side Bar",
+      "target": "切换辅助侧栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions",
+      "key": "toggleAuxiliaryBar",
+      "source": "Toggle Breezell Side Bar Visibility",
+      "target": "切换辅助侧栏可见性"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions",
+      "key": "focusAuxiliaryBar",
+      "source": "Focus into Breezell Side Bar",
+      "target": "将焦点置于辅助侧栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions",
+      "key": "hideAuxiliaryBar",
+      "source": "Hide Breezell Side Bar",
+      "target": "隐藏辅助侧栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions",
+      "key": "previousAuxiliaryBarView",
+      "source": "Previous Breezell Side Bar View",
+      "target": "上一个辅助侧边栏视图"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions",
+      "key": "nextAuxiliaryBarView",
+      "source": "Next Breezell Side Bar View",
+      "target": "下一个辅助侧边栏视图"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+      "key": "move second side bar left",
+      "source": "Move Breezell Side Bar Left",
+      "target": "向左移动辅助边栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+      "key": "move second side bar right",
+      "source": "Move Breezell Side Bar Right",
+      "target": "向右移动辅助边栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart",
+      "key": "hide second side bar",
+      "source": "Hide Breezell Side Bar",
+      "target": "隐藏辅助侧栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/editor/editorGroupWatermark",
+      "key": "breezell.cloneRepository",
+      "source": "Clone repository",
+      "target": "克隆存储库"
+    },
+    {
+      "module": "vs/workbench/browser/parts/editor/editorGroupWatermark",
+      "key": "breezell.connectTo",
+      "source": "Connect to",
+      "target": "连接到"
+    },
+    {
+      "module": "vs/workbench/browser/parts/editor/editorGroupWatermark",
+      "key": "breezell.recentProjects",
+      "source": "Recent projects",
+      "target": "最近的项目"
+    },
+    {
+      "module": "vs/workbench/browser/parts/globalCompositeBar",
+      "key": "accountsOverlaySubtitleSignedIn",
+      "source": "Signed in to Breezell",
+      "target": "已登录 Breezell"
+    },
+    {
+      "module": "vs/workbench/browser/parts/globalCompositeBar",
+      "key": "signInToBreezell",
+      "source": "Sign in to Breezell",
+      "target": "登录 Breezell"
+    },
+    {
+      "module": "vs/workbench/browser/parts/globalCompositeBar",
+      "key": "themeSwitcher",
+      "source": "Theme",
+      "target": "主题"
+    },
+    {
+      "module": "vs/workbench/browser/parts/notifications/notificationsCenter",
+      "key": "notifications",
+      "source": "Notifications",
+      "target": "通知"
+    },
+    {
+      "module": "vs/workbench/browser/parts/notifications/notificationsCommands",
+      "key": "notifications",
+      "source": "Notifications",
+      "target": "通知"
+    },
+    {
+      "module": "vs/workbench/browser/parts/notifications/notificationsStatus",
+      "key": "status.notifications",
+      "source": "Notifications",
+      "target": "通知"
+    },
+    {
+      "module": "vs/workbench/browser/parts/paneCompositeBar",
+      "key": "auxiliarybar",
+      "source": "Breezell Side Bar",
+      "target": "辅助侧边栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/panel/panelActions",
+      "key": "movePanelToSecondarySideBar",
+      "source": "Move Panel Views To Breezell Side Bar",
+      "target": "将面板视图移动到辅助侧栏"
+    },
+    {
+      "module": "vs/workbench/browser/parts/panel/panelActions",
+      "key": "moveSidePanelToPanel",
+      "source": "Move Breezell Side Bar Views To Panel",
+      "target": "将辅助侧栏视图移动到面板"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.quickPhrases",
+      "source": "Quick Phrases",
+      "target": "快捷短语"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.notifications",
+      "source": "Notifications",
+      "target": "通知"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.dev.simulateUpdateState",
+      "source": "Developer: Simulate Update State (Title Bar Indicator)",
+      "target": "开发人员：模拟更新状态（标题栏指示器）"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.closeAll",
+      "source": "Close All Tabs",
+      "target": "关闭所有标签页"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.title",
+      "source": "Quick Phrases",
+      "target": "快捷短语"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.add",
+      "source": "New",
+      "target": "新建"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.empty",
+      "source": "No quick phrases yet",
+      "target": "还没有快捷短语"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.emptyHint",
+      "source": "Click + to create one",
+      "target": "点击 + 创建快捷短语"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.name",
+      "source": "Name",
+      "target": "名称"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.content",
+      "source": "Content",
+      "target": "内容"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.type",
+      "source": "Action",
+      "target": "操作"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.input",
+      "source": "Insert",
+      "target": "插入"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.send",
+      "source": "Send",
+      "target": "发送"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.terminal",
+      "source": "Terminal",
+      "target": "终端"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.workDir",
+      "source": "Working Directory",
+      "target": "工作目录"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.execute",
+      "source": "Run",
+      "target": "运行"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.save",
+      "source": "Save",
+      "target": "保存"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.cancel",
+      "source": "Cancel",
+      "target": "取消"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.delete",
+      "source": "Delete",
+      "target": "删除"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.edit",
+      "source": "Edit",
+      "target": "编辑"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.selectHint",
+      "source": "Select a phrase from the list",
+      "target": "从列表中选择短语"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.namePh",
+      "source": "Give it a name...",
+      "target": "输入名称..."
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.contentPh",
+      "source": "Enter phrase content...",
+      "target": "输入短语内容..."
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/commandCenterControl",
+      "key": "breezell.qp.workDirPh",
+      "source": "e.g. ./src",
+      "target": "例如 ./src"
+    },
+    {
+      "module": "vs/workbench/browser/parts/titlebar/titlebarActions",
+      "key": "themeSwitcher",
+      "source": "Theme",
+      "target": "主题"
+    },
+    {
+      "module": "vs/workbench/browser/workbench.contribution",
+      "key": "sideBarLocation",
+      "source": "Controls the location of the primary side bar and activity bar. They can either show on the left or right of the workbench. The Breezell side bar will show on the opposite side of the workbench.",
+      "target": "控制主边栏和活动栏的位置。它们可以显示在工作台的左侧或右侧。辅助边栏将显示在工作台的另一侧。"
+    },
+    {
+      "module": "vs/workbench/browser/workbench.contribution",
+      "key": "activityBarLocation",
+      "source": "Controls the location of the Activity Bar relative to the Primary and Breezell Side Bars.",
+      "target": "控制活动栏相对于主边栏和辅助侧栏的位置。"
+    },
+    {
+      "module": "vs/workbench/browser/workbench.contribution",
+      "key": "workbench.activityBar.location.default",
+      "source": "Show the Activity Bar on the side of the Primary Side Bar and on top of the Breezell Side Bar.",
+      "target": "在主侧栏的一侧和辅助侧栏的顶部显示活动栏。"
+    },
+    {
+      "module": "vs/workbench/browser/workbench.contribution",
+      "key": "workbench.activityBar.location.top",
+      "source": "Show the Activity Bar on top of the Primary and Breezell Side Bars.",
+      "target": "在主边栏和辅助边栏上方显示活动栏。"
+    },
+    {
+      "module": "vs/workbench/browser/workbench.contribution",
+      "key": "workbench.activityBar.location.bottom",
+      "source": "Show the Activity Bar at the bottom of the Primary and Breezell Side Bars.",
+      "target": "在主侧栏和辅助侧栏的底部显示活动栏。"
+    },
+    {
+      "module": "vs/workbench/browser/workbench.contribution",
+      "key": "workbench.activityBar.location.hide",
+      "source": "Hide the Activity Bar in the Primary and Breezell Side Bars.",
+      "target": "在主边栏和辅助边栏中隐藏活动栏。"
+    },
+    {
+      "module": "vs/workbench/browser/workbench.contribution",
+      "key": "breezell.activityBar.width",
+      "source": "Controls the width of the Activity Bar and scales its icons accordingly. The default 48 is also the maximum.",
+      "target": "控制活动栏宽度，并按比例调整图标大小。默认值 48 也是最大值。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/_dummyContrib",
+      "key": "dummy",
+      "source": "dummy: Init",
+      "target": "dummy：初始化"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellAnalysisPane",
+      "key": "breezellAnalysisIcon",
+      "source": "Icon for the Breezell analysis report editor tab.",
+      "target": "Breezell 分析报告编辑器标签页的图标。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellAnalysisPane",
+      "key": "breezellAnalysisEditorPane",
+      "source": "Breezell Analysis Preview",
+      "target": "Breezell 分析预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellAnalysisPane",
+      "key": "breezellAnalysisEditorLabel",
+      "source": "Breezell Analysis Preview",
+      "target": "Breezell 分析预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellBrowserPane",
+      "key": "breezellBrowserName",
+      "source": "Breezell Browser",
+      "target": "Breezell 浏览器"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellBrowserPane",
+      "key": "BreezellBrowserPane",
+      "source": "Breezell Browser Pane",
+      "target": "Breezell 浏览器窗格"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellBrowserPane",
+      "key": "breezellBrowser",
+      "source": "Breezell: Toggle Browser",
+      "target": "Breezell：切换浏览器"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellBrowserPane",
+      "key": "breezellBrowserEnsureOpen",
+      "source": "Breezell: Ensure Browser Open",
+      "target": "Breezell：确保浏览器已打开"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCodeReviewPane",
+      "key": "breezellCodeReviewName",
+      "source": "Code Review",
+      "target": "代码审查"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCodeReviewPane",
+      "key": "breezellCodeReviewPane",
+      "source": "Code Review",
+      "target": "代码审查"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCodeReviewPane",
+      "key": "breezellOpenCodeReview",
+      "source": "Breezell: Open Code Review",
+      "target": "Breezell：打开代码审查"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellAcceptDiffAction",
+      "source": "Breezell: Accept Diff",
+      "target": "Breezell：接受差异"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellRejectDiffAction",
+      "source": "Breezell: Reject Diff",
+      "target": "Breezell：拒绝差异"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellGoToNextDiffAction",
+      "source": "Breezell: Go to Next Diff",
+      "target": "Breezell：转到下一个差异"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellGoToPrevDiffAction",
+      "source": "Breezell: Go to Previous Diff",
+      "target": "Breezell：转到上一个差异"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellGoToNextUriAction",
+      "source": "Breezell: Go to Next File with Diffs",
+      "target": "Breezell：转到下一个有差异的文件"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellGoToPrevUriAction",
+      "source": "Breezell: Go to Previous File with Diffs",
+      "target": "Breezell：转到上一个有差异的文件"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellAcceptFileAction",
+      "source": "Breezell: Accept All Diffs in Current File",
+      "target": "Breezell：接受当前文件中的所有差异"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellRejectFileAction",
+      "source": "Breezell: Reject All Diffs in Current File",
+      "target": "Breezell：拒绝当前文件中的所有差异"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellAcceptAllDiffsAction",
+      "source": "Breezell: Accept All Diffs in All Files",
+      "target": "Breezell：接受所有文件中的全部差异"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellCommandBarService",
+      "key": "breezellRejectAllDiffsAction",
+      "source": "Breezell: Reject All Diffs in All Files",
+      "target": "Breezell：拒绝所有文件中的全部差异"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDatabasePane",
+      "key": "breezellDatabaseName",
+      "source": "Database",
+      "target": "数据库"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDatabasePane",
+      "key": "breezellDatabasePane",
+      "source": "Database",
+      "target": "数据库"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDatabasePane",
+      "key": "breezellOpenDatabase",
+      "source": "Breezell: Open Database",
+      "target": "Breezell：打开数据库"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxThumbnails",
+      "source": "Pages",
+      "target": "页面"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxHideThumbnails",
+      "source": "Hide page thumbnails",
+      "target": "隐藏页面缩略图"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxShowThumbnails",
+      "source": "Show page thumbnails",
+      "target": "显示页面缩略图"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxLoading",
+      "source": "Loading Word document...",
+      "target": "正在加载 Word 文档..."
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxTooLarge",
+      "source": "Document is {0}MB — exceeds the {1}MB preview limit.",
+      "target": "文档大小为 {0} MB，超过 {1} MB 的预览限制。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxReadyPagesPath",
+      "source": "{0} · Word preview · read-only · {1} page{2}",
+      "target": "{0} · Word 预览 · 只读 · {1} 页"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxError",
+      "source": "Failed to preview Word document. Only .docx/.dotx (OOXML) are supported.\n{0}",
+      "target": "无法预览 Word 文档。仅支持 .docx/.dotx（OOXML）。\n{0}"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxThumbnailsWithCount",
+      "source": "Pages ({0})",
+      "target": "页面（{0}）"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxNoPages",
+      "source": "No pages",
+      "target": "没有页面"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxGoToPage",
+      "source": "Go to page {0}",
+      "target": "转到第 {0} 页"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxEditorPane",
+      "source": "Breezell Word Preview",
+      "target": "Breezell Word 预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellDocxPane",
+      "key": "breezellDocxEditorLabel",
+      "source": "Breezell Word Preview",
+      "target": "Breezell Word 预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellExcelPane",
+      "key": "breezellExcelLoading",
+      "source": "Loading spreadsheet...",
+      "target": "正在加载电子表格..."
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellExcelPane",
+      "key": "breezellExcelEmpty",
+      "source": "No sheets",
+      "target": "没有工作表"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellExcelPane",
+      "key": "breezellExcelStatusPath",
+      "source": "{0} · {1} · {2} rows × {3} cols{4}",
+      "target": "{0} · {1} · {2} 行 × {3} 列{4}"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellExcelPane",
+      "key": "breezellExcelSheetEmpty",
+      "source": "This sheet is empty.",
+      "target": "此工作表为空。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellExcelPane",
+      "key": "breezellExcelEditorPane",
+      "source": "Breezell Excel Preview",
+      "target": "Breezell Excel 预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellExcelPane",
+      "key": "breezellExcelEditorLabel",
+      "source": "Breezell Excel Preview",
+      "target": "Breezell Excel 预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellImageStudioPane",
+      "key": "breezellOpenImageStudio",
+      "source": "Image Studio",
+      "target": "图像工作室"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfPreviousPage",
+      "source": "Previous page",
+      "target": "上一页"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfNextPage",
+      "source": "Next page",
+      "target": "下一页"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfZoomOut",
+      "source": "Zoom out",
+      "target": "缩小"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfResetZoom",
+      "source": "Reset zoom",
+      "target": "重置缩放"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfZoomIn",
+      "source": "Zoom in",
+      "target": "放大"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfThumbnails",
+      "source": "Pages",
+      "target": "页面"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfHideThumbnails",
+      "source": "Hide thumbnails",
+      "target": "隐藏缩略图"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfShowThumbnails",
+      "source": "Show thumbnails",
+      "target": "显示缩略图"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfLoading",
+      "source": "Loading PDF...",
+      "target": "正在加载 PDF..."
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfThumbnailsWithCount",
+      "source": "Pages ({0})",
+      "target": "页面（{0}）"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfLoadFailed",
+      "source": "Failed to load PDF.",
+      "target": "无法加载 PDF。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfGoToPage",
+      "source": "Go to page {0}",
+      "target": "转到第 {0} 页"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfEditorPane",
+      "source": "Breezell PDF Preview",
+      "target": "Breezell PDF 预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPdfPane",
+      "key": "breezellPdfEditorLabel",
+      "source": "Breezell PDF Preview",
+      "target": "Breezell PDF 预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPlanPane",
+      "key": "breezellPlanIcon",
+      "source": "Icon for the Breezell plan editor tab.",
+      "target": "Breezell 计划编辑器标签页的图标。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPlanPane",
+      "key": "breezellPlanEditorPane",
+      "source": "Breezell Plan Preview",
+      "target": "Breezell 计划预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellPlanPane",
+      "key": "breezellPlanEditorLabel",
+      "source": "Breezell Plan Preview",
+      "target": "Breezell 计划预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSCMService",
+      "key": "breezellFailedToGenerateCommitMessage",
+      "source": "Failed to generate commit message.",
+      "target": "无法生成提交消息。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSCMService",
+      "key": "breezellCommitMessagePrompt",
+      "source": "Breezell: Generate Commit Message",
+      "target": "Breezell：生成提交消息"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSCMService",
+      "key": "breezellCommitMessagePromptTooltip",
+      "source": "Breezell: Generate Commit Message",
+      "target": "Breezell：生成提交消息"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSCMService",
+      "key": "breezellCommitMessagePromptCancel",
+      "source": "Breezell: Cancel Commit Message Generation",
+      "target": "Breezell：取消生成提交消息"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSCMService",
+      "key": "breezellCommitMessagePromptCancelTooltip",
+      "source": "Breezell: Cancel Commit Message Generation",
+      "target": "Breezell：取消生成提交消息"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSettingsPane",
+      "key": "breezellSettingsInputsName",
+      "source": "Breezell Settings",
+      "target": "Breezell 设置"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSettingsPane",
+      "key": "BreezellSettingsPane",
+      "source": "Breezell Settings Pane",
+      "target": "Breezell 设置窗格"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSettingsPane",
+      "key": "breezellSettingsActionGear",
+      "source": "Breezell Settings",
+      "target": "Breezell 设置"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSettingsPane",
+      "key": "breezellSettings",
+      "source": "Breezell: Toggle Settings",
+      "target": "Breezell：切换设置"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/breezellSettingsPane",
+      "key": "breezellSettingsAction2",
+      "source": "Breezell: Open Settings",
+      "target": "Breezell：打开设置"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/chatThreadService",
+      "key": "breezell.visionProxyFailed",
+      "source": "The configured vision proxy ({0}) could not analyze the image. Check that it supports image input, or find {1} in Breezell Settings > Models and choose another model from its Vision Proxy button.",
+      "target": "配置的视觉代理（{0}）无法分析图像。请确认它支持图像输入，或在 Breezell 设置 > 模型中找到 {1}，通过其视觉代理按钮选择其他模型。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/chatThreadService",
+      "key": "join.breezellChatHistory",
+      "source": "Saving conversation content",
+      "target": "正在保存对话内容"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/codeIndexService",
+      "key": "codeIndex",
+      "source": "Code Index",
+      "target": "代码索引"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/codeIndexService",
+      "key": "codeIndex.idle",
+      "source": "Code Index - Click to start indexing",
+      "target": "代码索引 - 点击开始索引"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/codeIndexService",
+      "key": "codeIndex.clickToStart",
+      "source": "Click to start code indexing",
+      "target": "点击开始代码索引"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/codeIndexService",
+      "key": "indexing.progress",
+      "source": "Indexing workspace... {0}%",
+      "target": "正在索引工作区... {0}%"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/codeIndexService",
+      "key": "indexed.tooltip",
+      "source": "Last indexed: {0}. Click to re-index.",
+      "target": "上次索引：{0}。点击重新索引。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/codeIndexService",
+      "key": "startIndexing",
+      "source": "Breezell: Start Code Indexing",
+      "target": "Breezell：开始代码索引"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/codeIndexService",
+      "key": "notConfigured",
+      "source": "Please login to Breezell first to use code indexing.",
+      "target": "请先登录 Breezell，再使用代码索引。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/codeIndexService",
+      "key": "stopIndexing",
+      "source": "Breezell: Stop Code Indexing",
+      "target": "Breezell：停止代码索引"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.safeModeOn",
+      "source": "Extension Safe Mode is on — third-party extensions stay disabled so Breezell can start cleanly.",
+      "target": "扩展安全模式已开启——第三方扩展将保持禁用，以便 Breezell 正常启动。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.exitSafeMode",
+      "source": "Exit Safe Mode",
+      "target": "退出安全模式"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.dismiss",
+      "source": "Dismiss",
+      "target": "关闭"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.unresponsive",
+      "source": "The Extension Host stopped responding. A heavy extension is often the cause.",
+      "target": "扩展宿主已停止响应，通常是资源占用过高的扩展导致。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.slow",
+      "source": "Extensions are taking longer than usual to start. You can keep waiting, or enter Safe Mode (disable third-party extensions).",
+      "target": "扩展启动时间超过正常水平。你可以继续等待，或进入安全模式（禁用第三方扩展）。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.stuck",
+      "source": "Extension Host did not become ready in time. Enter Safe Mode to restore editing and Breezell AI, then re-enable extensions one by one.",
+      "target": "扩展宿主未能及时就绪。请进入安全模式恢复编辑和 Breezell AI，再逐个重新启用扩展。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.enterSafeMode",
+      "source": "Enter Safe Mode",
+      "target": "进入安全模式"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.restartHost",
+      "source": "Restart Extension Host",
+      "target": "重启扩展宿主"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.showSlow",
+      "source": "Show Slow Extensions",
+      "target": "显示缓慢的扩展"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.safeModeFail",
+      "source": "Could not disable some extensions. Try Developer: Restart Extension Host, or disable extensions manually.",
+      "target": "无法禁用部分扩展。请尝试“开发人员：重启扩展宿主”，或手动禁用扩展。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.safeModeEntered",
+      "source": "Safe Mode on ({0} extensions disabled). Reloading window…",
+      "target": "安全模式已开启（已禁用 {0} 个扩展）。正在重新加载窗口…"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.safeModeExited",
+      "source": "Safe Mode off. Reloading window…",
+      "target": "安全模式已关闭。正在重新加载窗口…"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.restartReason",
+      "source": "Breezell Extension Health",
+      "target": "Breezell 扩展运行状况"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.restartFailed",
+      "source": "Extension Host restart failed. Check the logs for startup details.",
+      "target": "扩展宿主重启失败。请查看日志了解启动详情。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.slowFound",
+      "source": "Some extensions activated slowly and may delay startup: {0}",
+      "target": "部分扩展激活缓慢，可能延迟启动：{0}"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.noSlow",
+      "source": "No extension activation timings available yet. Opening Running Extensions…",
+      "target": "尚无扩展激活耗时数据。正在打开“正在运行的扩展”…"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.slowTag",
+      "source": "slow",
+      "target": "缓慢"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.pickSlow",
+      "source": "Slowest activations — select one to disable it",
+      "target": "激活最慢的扩展——选择一个将其禁用"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.cannotDisable",
+      "source": "Cannot disable {0}.",
+      "target": "无法禁用 {0}。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.disabledOne",
+      "source": "Disabled {0}. Restarting Extension Host…",
+      "target": "已禁用 {0}。正在重启扩展宿主…"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.cmd.safeMode",
+      "source": "Breezell: Enter Extension Safe Mode",
+      "target": "Breezell：进入扩展安全模式"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.cmd.exitSafeMode",
+      "source": "Breezell: Exit Extension Safe Mode",
+      "target": "Breezell：退出扩展安全模式"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.cmd.restartHost",
+      "source": "Breezell: Restart Extension Host",
+      "target": "Breezell：重启扩展宿主"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/extensionHealthContribution",
+      "key": "breezell.extHealth.cmd.showSlow",
+      "source": "Breezell: Show Slow Extensions",
+      "target": "Breezell：显示缓慢的扩展"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/fileService",
+      "key": "breezellCopyPrompt",
+      "source": "Breezell: Copy Prompt",
+      "target": "Breezell：复制提示词"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/fileService",
+      "key": "breezellOpenInPreview",
+      "source": "Breezell: Open in Preview",
+      "target": "Breezell：在预览中打开"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/fileService",
+      "key": "breezellCdToFolder",
+      "source": "Breezell: CD to Folder in Terminal",
+      "target": "Breezell：在终端中进入文件夹"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/projectSwitch",
+      "key": "breezell.projects.unsupportedScheme",
+      "source": "This location can't be switched in-place from the Projects list.",
+      "target": "无法从项目列表直接切换到此位置。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/projectSwitch",
+      "key": "breezell.projects.missingPath",
+      "source": "This project folder no longer exists on disk.",
+      "target": "此项目文件夹已不存在。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/projectSwitch",
+      "key": "breezell.projects.reuseFailed",
+      "source": "Couldn't switch this window to that project. Try Open Folder in New Window from the File menu.",
+      "target": "无法将此窗口切换到该项目。请从“文件”菜单选择“在新窗口中打开文件夹”。"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/quickEditActions",
+      "key": "breezellQuickEditAction",
+      "source": "Breezell: Quick Edit",
+      "target": "Breezell：快速编辑"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/sidebarActions",
+      "key": "breezellOpenSidebar",
+      "source": "Breezell: Open Sidebar",
+      "target": "Breezell：打开侧栏"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/sidebarActions",
+      "key": "breezellCmdL",
+      "source": "Breezell: Add Selection to Chat",
+      "target": "Breezell：将所选内容添加到聊天"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/terminalPreview.contribution",
+      "key": "preview",
+      "source": "Preview",
+      "target": "预览版"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/terminalPreview.contribution",
+      "key": "openPreview",
+      "source": "Open Preview",
+      "target": "打开预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/terminalPreview.contribution",
+      "key": "closePreview",
+      "source": "Close Preview",
+      "target": "关闭预览"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/terminalPreview.contribution",
+      "key": "focusPreview",
+      "source": "Focus Preview Window",
+      "target": "聚焦预览窗口"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/browser/terminalPreview.contribution",
+      "key": "togglePreview",
+      "source": "Toggle Preview Window",
+      "target": "切换预览窗口"
+    },
+    {
+      "module": "vs/workbench/contrib/breezell/common/metricsService",
+      "key": "breezellMetricsDebug",
+      "source": "Breezell: Log Debug Info",
+      "target": "Breezell：记录调试信息"
+    },
+    {
+      "module": "vs/workbench/contrib/breezellDatabase/browser/breezellDatabase.contribution",
+      "key": "breezellOpenDatabaseBtn",
+      "source": "Open Database",
+      "target": "打开数据库"
+    },
+    {
+      "module": "vs/workbench/contrib/breezellDatabase/browser/breezellDatabase.contribution",
+      "key": "breezellDatabase",
+      "source": "Breezell Database",
+      "target": "Breezell 数据库"
+    },
+    {
+      "module": "vs/workbench/contrib/files/browser/fileActions.contribution",
+      "key": "openBreezell",
+      "source": "&&Open Breezell Settings",
+      "target": "打开 Breezell 设置(&O)"
+    },
+    {
+      "module": "vs/workbench/contrib/markers/browser/markers.contribution",
+      "key": "sendProblemsToBreezell",
+      "source": "Send Problems to Breezell",
+      "target": "将问题发送到 Breezell"
+    },
+    {
+      "module": "vs/workbench/contrib/ports/browser/ports.contribution",
+      "key": "ports",
+      "source": "Ports",
+      "target": "端口"
+    },
+    {
+      "module": "vs/workbench/contrib/remote/browser/remoteExplorer",
+      "key": "ports",
+      "source": "Ports",
+      "target": "端口"
+    },
+    {
+      "module": "vs/workbench/contrib/remote/browser/remoteRootWorkspaceWarning",
+      "key": "remoteRootWorkspaceCpuWarning",
+      "source": "This remote workspace is the system root directory (/). Breezell will index the whole machine (including virtual filesystems), which can max out CPU on small servers. Open a specific project folder instead (for example /root or /home/you/app).",
+      "target": "此远程工作区是系统根目录（/）。Breezell 将索引整台机器（包括虚拟文件系统），可能耗尽小型服务器的 CPU。请改为打开具体项目文件夹，例如 /root 或 /home/you/app。"
+    },
+    {
+      "module": "vs/workbench/contrib/remote/browser/tunnelView",
+      "key": "remote.tunnel",
+      "source": "Ports",
+      "target": "端口"
+    },
+    {
+      "module": "vs/workbench/contrib/superMemory/browser/superMemory.contribution",
+      "key": "superMemory",
+      "source": "Super Memory",
+      "target": "超级记忆"
+    },
+    {
+      "module": "vs/workbench/contrib/uiAggregate/browser/uiAggregate.contribution",
+      "key": "uiAggregate",
+      "source": "Code Review",
+      "target": "代码审查"
+    },
+    {
+      "module": "vs/workbench/electron-sandbox/actions/developerActions",
+      "key": "breezell.devToolsUnavailable",
+      "source": "Developer Tools are unavailable.",
+      "target": "开发人员工具不可用。"
+    },
+    {
+      "module": "vs/workbench/electron-sandbox/actions/developerActions",
+      "key": "breezell.devToolsUnavailableDetail",
+      "source": "Developer Tools are not enabled in this version.",
+      "target": "此版本未启用开发人员工具。"
+    },
+    {
+      "module": "vs/workbench/services/authentication/browser/authenticationExtensionsService",
+      "key": "breezellSignedIn",
+      "source": "Signed in to Breezell",
+      "target": "已登录 Breezell"
+    },
+    {
+      "module": "vs/workbench/services/authentication/browser/authenticationService",
+      "key": "signInToBreezell",
+      "source": "Sign in to Breezell",
+      "target": "登录 Breezell"
+    }
+  ],
+  "hardcodedEntries": [
+    {
+      "id": "titlebar.closeAll",
+      "from": "b.setAttribute(\"aria-label\",\"Close All Tabs\");const v=document.createElement(\"span\");v.classList.add(\"bzn-capsule-btn-text\"),v.textContent=\"Close All\"",
+      "to": "b.setAttribute(\"aria-label\",\"关闭所有标签页\");const v=document.createElement(\"span\");v.classList.add(\"bzn-capsule-btn-text\"),v.textContent=\"全部关闭\""
+    },
+    {
+      "id": "titlebar.imageStudio",
+      "from": "t.className=\"open-image-studio-window-label\",t.textContent=\"Image Studio\"",
+      "to": "t.className=\"open-image-studio-window-label\",t.textContent=\"图像工作室\""
+    },
+    {
+      "id": "welcome.openFolder",
+      "from": "a(\"Open Folder\",\"codicon-folder-opened\"",
+      "to": "a(\"打开文件夹\",\"codicon-folder-opened\""
+    },
+    {
+      "id": "codeIndex.idleText",
+      "count": 2,
+      "from": "text:\"$(shield) Code Index\"",
+      "to": "text:\"$(shield) 代码索引\""
+    },
+    {
+      "id": "codeIndex.progressText",
+      "from": "e.progress===0?\"$(sync~spin) Updating...\":`$(sync~spin) Indexing ${e.progress}%`",
+      "to": "e.progress===0?\"$(sync~spin) 正在更新...\":`$(sync~spin) 正在索引 ${e.progress}%`"
+    },
+    {
+      "id": "codeIndex.failedText",
+      "from": "text:\"$(error) Index Failed\"",
+      "to": "text:\"$(error) 索引失败\""
+    },
+    {
+      "id": "codeIndex.indexedText",
+      "from": "const t=\"$(verified-filled) Indexed\"",
+      "to": "const t=\"$(verified-filled) 已索引\""
+    }
+  ],
+  "codex": {
+    "displayName": "Codex – OpenAI 编程智能体",
+    "description": "Codex 是一个与你协同工作的编程智能体，已包含在 ChatGPT Plus、Pro、Business、Edu 和 Enterprise 套餐中。",
+    "commands": {
+      "chatgpt.implementTodo": "使用 Codex 实现",
+      "chatgpt.openSidebar": "打开 Codex 侧栏",
+      "chatgpt.openCommandMenu": "打开 Codex 命令菜单",
+      "chatgpt.newCodexPanel": "新建 Codex 智能体",
+      "chatgpt.addToThread": "添加到 Codex 对话",
+      "chatgpt.addFileToThread": "将文件添加到 Codex 对话",
+      "chatgpt.newChat": "在 ChatGPT 侧栏中新建聊天",
+      "chatgpt.showLspMcpCliArgs": "复制用于 LSP MCP 的 Codex CLI 参数",
+      "chatgpt.dumpNuxState": "调试：将 NUX 状态输出到控制台",
+      "chatgpt.resetNuxState": "调试：重置 NUX 状态"
+    },
+    "configurationTitle": "Codex 设置",
+    "configurationDescriptions": {
+      "chatgpt.commentCodeLensEnabled": "在 TODO 注释上方启用 CodeLens，以使用 Codex 实现任务。",
+      "chatgpt.cliExecutable": "仅限开发：Codex CLI 可执行文件的路径。除非你正在开发 Codex CLI，否则无需设置。手动设置后，扩展的部分功能可能无法正常工作。",
+      "chatgpt.openOnStartup": "扩展启动完成后聚焦 Codex 侧栏。",
+      "chatgpt.followUpQueueMode": "控制后续消息是排队等待，还是引导当前运行。按 Cmd/Ctrl+Shift+Enter 可对单条进行中的后续消息执行相反操作。",
+      "chatgpt.composerEnterBehavior": "设置 Codex 输入框的 Enter 键行为。",
+      "chatgpt.reviewDelivery": "尽可能在当前聊天中内联启动 /review，否则新建独立的审查聊天。",
+      "chatgpt.localeOverride": "Codex 界面的首选语言。留空则自动检测。",
+      "chatgpt.runCodexInWindowsSubsystemForLinux": "仅限 Windows：安装 WSL 后，自动在 WSL 中运行 Codex。建议启用以改善沙箱安全性和性能；Windows 上的智能体模式目前需要 WSL。更改此设置后会重新加载 VS Code。"
+    }
+  }
+}

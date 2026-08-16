@@ -1,0 +1,44 @@
+{
+  "name": "breezell-zh-enhanced",
+  "displayName": "Breezell 简体中文增强",
+  "description": "补齐 Breezell 外层界面与 Codex 扩展清单中的简体中文文本。",
+  "version": "0.1.2",
+  "publisher": "local",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.112.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "activationEvents": [
+    "onCommand:breezellZh.apply",
+    "onCommand:breezellZh.restore",
+    "onCommand:breezellZh.status"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "breezellZh.apply",
+        "title": "应用 Breezell 简体中文增强"
+      },
+      {
+        "command": "breezellZh.restore",
+        "title": "恢复 Breezell 汉化前文件"
+      },
+      {
+        "command": "breezellZh.status",
+        "title": "查看 Breezell 汉化状态"
+      }
+    ]
+  },
+  "scripts": {
+    "scan": "node scripts/scan.mjs",
+    "test": "node test/self-check.mjs",
+    "package": "node scripts/package.mjs"
+  }
+}
