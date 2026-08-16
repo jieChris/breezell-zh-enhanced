@@ -9,9 +9,11 @@ const manifest = JSON.parse(fs.readFileSync(path.join(projectRoot, "package.json
 const stage = fs.mkdtempSync(path.join(os.tmpdir(), "breezell-zh-vsix-"));
 const extensionDir = path.join(stage, "extension");
 fs.mkdirSync(path.join(extensionDir, "src"), { recursive: true });
+fs.mkdirSync(path.join(extensionDir, "assets"), { recursive: true });
 
 for (const file of ["package.json", "README.md", "LICENSE"]) fs.copyFileSync(path.join(projectRoot, file), path.join(extensionDir, file));
 for (const file of ["extension.js", "patcher.js", "translations.json"]) fs.copyFileSync(path.join(projectRoot, "src", file), path.join(extensionDir, "src", file));
+fs.copyFileSync(path.join(projectRoot, "assets", "icon.png"), path.join(extensionDir, "assets", "icon.png"));
 
 const contentTypes = `<?xml version="1.0" encoding="utf-8"?>
 <Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
@@ -20,6 +22,7 @@ const contentTypes = `<?xml version="1.0" encoding="utf-8"?>
   <Default Extension="js" ContentType="application/javascript" />
   <Default Extension="md" ContentType="text/markdown" />
   <Default Extension="txt" ContentType="text/plain" />
+  <Default Extension="png" ContentType="image/png" />
 </Types>
 `;
 const vsixManifest = `<?xml version="1.0" encoding="utf-8"?>
@@ -51,4 +54,3 @@ const zipped = spawnSync("/usr/bin/zip", ["-qr", output, "."], { cwd: stage, enc
 if (zipped.status !== 0) throw new Error(zipped.stderr || "VSIX 打包失败");
 fs.copyFileSync(path.join(projectRoot, "inventory", "report.md"), path.join(outputDir, "breezell-zh-scan-report.md"));
 console.log(output);
-

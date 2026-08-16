@@ -27,3 +27,5 @@
 - `npm test` 通过：`self-check ok: 193 NLS entries, 7 hardcoded groups`。
 - `npm run package` 通过；VSIX 内容和 `extension/package.json` v0.1.2 元数据检查通过。
 - 最终 VSIX SHA-256：`c524a098e1bd99624d71b94c8a86ece48f72135a30ef78fd9ac56a441c0218c0`。
+- v0.1.3 新增 256×256 PNG 扩展图标；`package.json`、README 和 VSIX 打包内容已同步。
+- v0.1.3 已通过扫描、自检、打包、ZIP 完整性和图标清单路径检查；VSIX SHA-256：`2275f1dbabf39ac620444dfb3ad9f859fd7720b917520cd24ef3e2324430c33d`。

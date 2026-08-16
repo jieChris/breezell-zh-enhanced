@@ -7,6 +7,7 @@
 - `src/translations.json`: 以稳定模块名、NLS 键或精确英文文本定位的中文映射。
 - `scripts/scan.mjs`: 从本机 Breezell 生成审计清单。
 - `scripts/package.mjs`: 用系统 `zip` 生成 VSIX，不引入构建依赖。
+- `assets/icon.png`: 256×256 PNG 扩展图标，由扩展清单直接引用并随 VSIX 打包。
 
 ## Safety Contract
 

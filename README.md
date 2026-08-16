@@ -1,6 +1,8 @@
 # Breezell 简体中文增强
 
-适用于 macOS Breezell `1.112.0` 的本地可逆汉化扩展。当前版本为 `0.1.2`。
+![Breezell 简体中文增强图标](assets/icon.png)
+
+适用于 macOS Breezell `1.112.0` 的本地可逆汉化扩展。当前版本为 `0.1.3`。
 
 补丁覆盖 Breezell 外层 NLS、7 组关键工作台硬编码文本和 Codex 扩展清单。Breezell Settings 自带简体中文词典，本项目不会修改其压缩 React 包。
 
@@ -27,7 +29,7 @@
 
 ```sh
 sh /Applications/Breezell.app/Contents/Resources/app/bin/code \
-  --install-extension /path/to/breezell-zh-enhanced-0.1.2.vsix \
+  --install-extension /path/to/breezell-zh-enhanced-0.1.3.vsix \
   --force
 ```
 

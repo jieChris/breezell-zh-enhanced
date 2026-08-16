@@ -2,9 +2,10 @@
   "name": "breezell-zh-enhanced",
   "displayName": "Breezell 简体中文增强",
   "description": "补齐 Breezell 外层界面与 Codex 扩展清单中的简体中文文本。",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "local",
   "license": "MIT",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.112.0"
   },
