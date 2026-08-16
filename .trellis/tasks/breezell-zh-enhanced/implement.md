@@ -16,6 +16,7 @@
 - 首次应用工作台补丁后，Breezell 内置完整性检查按 `product.json.checksums` 将预期修改误报为“安装可能损坏”。已立即按三文件备份回退；v0.1.2 改为把该单一 SHA-256 字段纳入同批备份与恢复，不修改 macOS 可执行文件或代码签名。
 - UI 升级时命令面板被启动期刷新反复关闭。为避免误点，旧版恢复和一次 v0.1.1 应用改用与扩展命令相同的纯 Node 补丁器执行；发现完整性警告后已完整回退，未保留该路线产生的修改。
 - v0.1.2 应用后首次通过 Launch Services 重启返回 `-609`；保守改用 `open -na`。Breezell 实际已以 `Electron` 进程名启动，原轮询因只匹配 `Breezell` 而误报未启动；未强制结束进程，也未更改补丁路线。
+- v0.1.3 在最终复核时重新打包，ZIP 时间戳使文件摘要变化；未重复修改或上传附件，只以 GitHub 实际发布资产的摘要作为最终审计值。
 
 ## Validation Log
 
@@ -28,4 +29,4 @@
 - `npm run package` 通过；VSIX 内容和 `extension/package.json` v0.1.2 元数据检查通过。
 - 最终 VSIX SHA-256：`c524a098e1bd99624d71b94c8a86ece48f72135a30ef78fd9ac56a441c0218c0`。
 - v0.1.3 新增 256×256 PNG 扩展图标；`package.json`、README 和 VSIX 打包内容已同步。
-- v0.1.3 已通过扫描、自检、打包、ZIP 完整性和图标清单路径检查；VSIX SHA-256：`2275f1dbabf39ac620444dfb3ad9f859fd7720b917520cd24ef3e2324430c33d`。
+- v0.1.3 已通过扫描、自检、打包、ZIP 完整性和图标清单路径检查；GitHub 发布附件 SHA-256：`b65193c00279296ccbf4f1c7d879382460f93a765de7ca99bbd1459912177aae`。
